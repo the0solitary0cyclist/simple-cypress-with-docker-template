@@ -2,4 +2,4 @@ FROM cypress/included:3.4.0
 WORKDIR /home/cypress-app
 COPY app /home/cypress-app
 #RUN npm install
-CMD npm run test
+#CMD npm run test
